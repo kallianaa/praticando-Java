@@ -1,3 +1,5 @@
+package java_curso;
+
 public class Classes {
 
     public static void main(String[] args) {
@@ -5,23 +7,13 @@ public class Classes {
         Carro carro1 = new Carro("Gol");
         Carro carro2 = new Carro("Civic");
 
+        String result = carro.acelerar();
         carro.acelerar();
         carro1.acelerar();
         carro2.acelerar();
 
+
+        System.out.println(result);
     }
 
-}
-
-class Carro{
-    String modelo;
-
-
-    public Carro(String modelo) {
-        this.modelo = modelo;
-    }
-
-    public void acelerar() {
-        System.out.println("O carro " + modelo + " está acelerando.");
-    }
 }
