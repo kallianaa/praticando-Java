@@ -52,15 +52,34 @@ public class Main {
 
 
 
-      for (int i = 0; i < nomes.size(); i++) {
-          System.out.println(nomes.get(i));
-      }
+      // for (int i = 0; i < nomes.size(); i++) {
+      //     System.out.println(nomes.get(i));
+      // }
 
 
 
-      for (String nome : nomes) {
-          System.out.println(nome);
-      }
+      // for (String nome : nomes) {
+      //     System.out.println(nome);
+      // }
 
+      // int contador = 0;
+      // while (contador < 10) {
+      //     System.out.println("Contador: " + contador);
+      //     contador++;
+      // }
+
+      double resultado = 0.0;
+      int resultadoInt = (int) resultado;
+      System.out.println("Resultado: " + resultado);
+      
+
+      int meuInt = 10;
+      double meuDouble = meuInt; // Conversão implícita de int para double
+      System.out.println("Meu Double: " + meuDouble);
+
+      String meuString = "123";
+      int meuIntConvertido = Integer.parseInt(meuString); // Conversão de String
+
+      
     }
 }
