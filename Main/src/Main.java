@@ -38,11 +38,11 @@ public class Main {
         // System.out.println("Coleção de Inteiros: ");
 
 
-        ArrayList<String> nomes = new ArrayList<>();
-        nomes.add("Nala");
-        nomes.add("Bob");
-        nomes.add("Tom");
-        nomes.add("Charlie");
+        // ArrayList<String> nomes = new ArrayList<>();
+        // nomes.add("Nala");
+        // nomes.add("Bob");
+        // nomes.add("Tom");
+        // nomes.add("Charlie");
 
         // System.out.println(nomes.get(0));
 
@@ -68,18 +68,18 @@ public class Main {
       //     contador++;
       // }
 
-      double resultado = 0.0;
-      int resultadoInt = (int) resultado;
-      System.out.println("Resultado: " + resultado);
+      // double resultado = 0.0;
+      // int resultadoInt = (int) resultado;
+      // System.out.println("Resultado: " + resultado);
       
 
-      int meuInt = 10;
-      double meuDouble = meuInt; // Conversão implícita de int para double
-      System.out.println("Meu Double: " + meuDouble);
+      // int meuInt = 10;
+      // double meuDouble = meuInt; // Conversão implícita de int para double
+      // System.out.println("Meu Double: " + meuDouble);
 
-      String meuString = "123";
-      int meuIntConvertido = Integer.parseInt(meuString); // Conversão de String
+      // String meuString = "123";
+      // int meuIntConvertido = Integer.parseInt(meuString); // Conversão de String
 
-      
+
     }
 }

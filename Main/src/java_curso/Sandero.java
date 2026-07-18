@@ -5,11 +5,6 @@ public class Sandero implements Carro {
     final int limiteDeVelocidade = 150;
     public int velocidadeAtual = 0;
 
-    String modelo;
-
-    public Sandero(String modelo) {
-        this.modelo = modelo;
-    }
 
     @Override
     public void acelerar() {
@@ -17,17 +12,17 @@ public class Sandero implements Carro {
             this.velocidadeAtual += 10;
             System.out.println("Acelerando");
         }
-        System.out.println("O carro " + modelo + " está acelerando.");
+        System.out.println("O carro está acelerando.");
     }
 
     @Override
     public void frear() {
-        System.out.println("O carro " + modelo + " está freando.");
+        System.out.println("O carro está freando.");
     }
 
     @Override
     public void parar() {
-        System.out.println("O carro " + modelo + " está parando.");
+        System.out.println("O carro está parando.");
     }
 
 }
